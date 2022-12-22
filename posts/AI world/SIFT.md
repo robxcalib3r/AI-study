@@ -1,0 +1,6 @@
+Scale Invariant Feature Transform (SIFT) is a local feature descriptor that is commonly used in computer vision and image processing applications.
+It is designed to extract distinctive features from an image, such as edges, corners, and textures, that are robust to geometric and photometric changes, such as changes in scale, orientation, and illumination.
+
+SIFT works by first detecting a set of scale-invariant keypoints in the image, which are points of interest that are stable under changes in scale and orientation. It then extracts a set of features, called descriptor vectors, from the image around each keypoint. These descriptor vectors are computed based on the gradient orientation histograms of the image within a local region around the keypoint, and they are designed to be invariant to changes in scale, orientation, and illumination.
+
+- can be computationally expensive and may not perform as well as more advanced algorithms such as SURF or deep learning-based approaches on certain tasks.

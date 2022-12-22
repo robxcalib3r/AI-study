@@ -1,0 +1,7 @@
+represents an image as a histogram of visual words, which are derived from a set of local features such as SIFT or SURF.
+
+how BoVW works:
+	1. Local feature extraction: The first step in the BoVW process is to extract a set of local features from the image. This is typically done using a local feature descriptor such as [[SIFT]] or [[SURF]], which extracts a set of distinctive features from the image such as edges, corners, and textures.
+	2. Feature quantization: The next step is to quantize the extracted features into a set of visual words. This is typically done using a technique called k-means clustering, which groups the features into a predefined number of clusters based on their similarity. Each cluster is then represented by a centroid, which becomes a visual word.
+	3. Image representation: Once the visual words have been computed, the image is represented as a histogram of visual words. This histogram counts the number of times each visual word appears in the image and provides a compact representation of the image.
+	4. Classification: Finally, a classifier such as an SVM is trained on a set of labeled images to learn how to classify images based on their BoVW representation. The classifier can then be used to classify new images by comparing their BoVW representation to the trained model.

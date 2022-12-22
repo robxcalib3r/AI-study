@@ -1,0 +1,5 @@
+Speeded Up Robust Features (SURF) is a local feature descriptor that is similar to Scale Invariant Feature Transform (SIFT). It is also designed to extract distinctive features from an image that are robust to geometric and photometric changes, such as changes in scale, orientation, and illumination.
+
+Like SIFT, SURF works by detecting a set of scale-invariant keypoints in the image and extracting a set of descriptor vectors from the image around each keypoint. However, it uses a different approach to compute the descriptor vectors, based on the Hessian matrix of the image, which allows it to be computed more efficiently than SIFT.
+
+SURF has been widely used in many computer vision applications, including object recognition, image matching, and scene recognition. It is known for its efficiency and effectiveness, but it may not be as robust as SIFT on certain tasks.
